@@ -1,0 +1,37 @@
+Steps for lab setup and configuartion 
+
+step1 : open cli mode ( just click on router 
+ 
+Setting password in router 
+
+step2 : command  
+        User Execution mode----------->router>en  (enable)
+	privilege mode --------------->router#conf t (config terminal)
+        global configuration mode----->router(config)#
+
+Step3: After getting into global execution mode user can set passord 
+
+       command : router(config)# enable password  ***YOURPASSWORD***(stars for just indiaction ) 
+
+      -----> you have sucessfully set the password 
+
+Step4:  After setting password  you must check the passowrd has set or not 
+        
+       command :  router(config)# exit 
+                  router#
+                  router#sh run (Short command for checking running configuration)
+                  router#show running-configuration (full command checking running configuration)
+              
+         In this you will get all the configuartion details which you have done on router 
+
+Step5: for saving configuration 
+         
+       command : copy running-configuration startup-configuration  (full command checking running configuration)
+       command : WR or write  (full command checking running configuration)
+
+these are basic steps we must learn.
+
+
+       
+
+       
